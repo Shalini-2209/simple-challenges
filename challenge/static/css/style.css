@@ -1,0 +1,27 @@
+.container-1, .container-2, .container-3, .container-4{
+    border: 1px solid black;
+    margin:0 auto;
+    width: 75%;
+    text-align: center;
+    
+}
+
+.flex-container-1, .flex-container-2, .flex-container-3, .flex-container-4{
+    display: flex;
+    border: 1px solid black;
+    padding : 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flex-container-1 div{
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    align-items: center;
+}
+.flex-container-3 img:hover{
+    box-shadow: 0px 18px 54px  rgb(15, 28, 163);
+}
+
